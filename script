@@ -88,8 +88,8 @@ def insert_post(pageId, status_id, status_message, link_name, status_type, statu
                     num_wows, num_hahas, num_sads, num_angrys))
     cnx.commit()
 
-app_id = "226997921088693"
-app_secret = "24a5f7ac0b1620b0b59145fba97d5125"
+app_id = ""
+app_secret = ""
 access_token = app_id + "|" + app_secret
 
 
